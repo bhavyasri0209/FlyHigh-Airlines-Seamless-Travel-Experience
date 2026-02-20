@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+<div class="logo">Profile</div>
+</div>
+
+<div style="padding:20px; max-width:500px; margin:auto;">
+<input type="text" id="fname" placeholder="First Name">
+<input type="text" placeholder="Middle Name">
+<input type="text" placeholder="Last Name">
+<input type="date" id="dob">
+<input type="text" id="age" placeholder="Age" readonly>
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<input type="text" placeholder="Address">
+
+<button onclick="calculateAge()">Auto Generate Age</button>
+<button>Save Changes</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
