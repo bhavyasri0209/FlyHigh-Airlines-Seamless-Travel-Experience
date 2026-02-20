@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+<div class="logo">✈ FlyHigh</div>
+<div class="profile-icon" onclick="location.href='profile.html'">👤</div>
+</div>
+
+<div style="padding:20px;">
+<input type="text" id="from" placeholder="From">
+<input type="text" id="to" placeholder="To">
+<input type="date" id="date">
+<button onclick="searchFlights()">Search</button>
+</div>
+
+<div class="flight-container" id="flights"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
